@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../../fonts/gilroy\ light.ttf") format("truetype");
+}
+.header .home {
+  width: 2.5%;
+}
+.header .line {
+  margin: 18px 20px 0px 20px;
+  width: 5px;
+  height: 23px;
+}
+.header .name {
+  font-family: "Gilroy-Light";
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+}

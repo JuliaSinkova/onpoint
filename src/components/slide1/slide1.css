@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../../fonts/ofont.ru_Gilroy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../../fonts/gilroy\ light.ttf") format("truetype");
+}
+.slide1 {
+  max-width: 1024px;
+  height: 768px;
+  background-image: url("../../images/background1.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+}
+.slide1 .bacteria1 {
+  width: 12%;
+  height: 15%;
+  position: absolute;
+  transform: translateY(70px);
+}
+.slide1 .bacteria2 {
+  width: 5%;
+  height: 7%;
+  position: absolute;
+  margin-top: 100px;
+  transform: translateX(700px);
+  animation-duration: 12s;
+  animation-name: bacteria2;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+.slide1 .bacteria3 {
+  width: 7%;
+  height: 9%;
+  position: absolute;
+  margin-top: 50px;
+  transform: translateX(900px);
+}
+.slide1 .bacteria4 {
+  width: 10%;
+  height: 14%;
+  position: absolute;
+  margin-top: 180px;
+  transform: translateX(850px);
+  z-index: 2;
+  animation-duration: 10s;
+  animation-name: bacteria4;
+  animation-iteration-count: infinite;
+}
+.slide1 .bacteria5 {
+  width: 8%;
+  height: 10%;
+  position: absolute;
+  margin-top: 460px;
+  transform: translateX(50px);
+  z-index: -1;
+  animation-duration: 10s;
+  animation-name: bacteria5;
+  animation-iteration-count: infinite;
+}
+.slide1 .bacteria6 {
+  width: 8%;
+  height: 10%;
+  position: absolute;
+  margin-top: 600px;
+  transform: translateX(400px);
+  z-index: -1;
+}
+.slide1 .bacteria7 {
+  width: 20%;
+  height: 16%;
+  position: absolute;
+  margin-top: 650px;
+  transform: translateX(600px);
+  animation-duration: 5s;
+  animation-name: bacteria7;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes bacteria2 {
+  0% {
+    width: 5%;
+    height: 7%;
+    margin-top: 100px;
+    transform: translateX(700px);
+  }
+
+  50% {
+    width: 7%;
+    height: 10%;
+    margin-top: 130px;
+    transform: translateX(750px);
+  }
+
+  100% {
+    width: 5%;
+    height: 7%;
+    margin-top: 100px;
+    transform: translateX(700px);
+  }
+}
+@keyframes bacteria4 {
+  0% {
+    margin-top: 180px;
+    transform: translateX(850px);
+  }
+
+  50% {
+    margin-top: 140px;
+    transform: translateX(800px);
+  }
+
+  100% {
+    margin-top: 180px;
+    transform: translateX(850px);
+  }
+}
+@keyframes bacteria5 {
+  0% {
+    margin-top: 460px;
+    transform: translateX(50px);
+  }
+
+  50% {
+    margin-top: 490px;
+    transform: translateX(90px);
+  }
+
+  100% {
+    margin-top: 460px;
+    transform: translateX(50px);
+  }
+}
+@keyframes bacteria7 {
+  0% {
+    margin-top: 650px;
+    transform: translateX(600px);
+  }
+  50% {
+    margin-top: 650px;
+    transform: translateX(650px);
+  }
+  100% {
+    margin-top: 650px;
+    transform: translateX(600px);
+  }
+}
+.slide1 .pinksperm1 {
+  width: 50%;
+  position: absolute;
+  margin-top: 135px;
+  transform: translateX(445px);
+}
+.slide1 .pinksperm2 {
+  width: 25%;
+  position: absolute;
+  margin-top: 530px;
+  transform: translateX(45px);
+}
+
+.slide1 .title {
+  font-family: "Gilroy-Light", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-size: 110px;
+  line-height: 100%;
+}
+.slide1 .bold {
+  font-family: "Gilroy-ExtraBold";
+}
+.slide1 .hello {
+  font-size: 27px;
+  margin: 0;
+  line-height: 50%;
+  font-weight: 500;
+}
+.slide1 .btn {
+  width: 250px;
+  height: 70px;
+  background-color: #ff6a9f;
+  border: none;
+  border-radius: 35px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  display: inline-flex;
+  line-height: 110%;
+  justify-content: space-between;
+}
+.slide1 .btn-text {
+  font-family: "Gilroy-Light";
+  font-size: 26px;
+  position: absolute;
+  line-height: 100%;
+  transform: translateX(-170px);
+  display: inline;
+}
+.slide1 .circle {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  box-shadow: 4px 3px 3px 0px rgba(231, 231, 231, 0.7);
+  color: white;
+  font-size: 26px;
+  line-height: 180%;
+  border-radius: 50%;
+}
+
+.slide1 .logo {
+  width: 80px;
+  margin-top: 200px;
+}
+a {
+  text-decoration: none;
+
+  color: black;
+}

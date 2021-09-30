@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../../fonts/gilroy\ light.ttf") format("truetype");
+}
+.slide2 {
+  width: 1024px;
+  height: 768px;
+  background-image: url("../../images/background2.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+  transform: translateX(1024px);
+}
+.slide2 .title {
+  font-family: "Gilroy-Light";
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.slide2 .text {
+  direction: rtl;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-family: "Gilroy-Light";
+  font-size: 22px;
+  height: 300px;
+  width: 630px;
+  overflow: auto;
+  padding: 40px;
+  border-radius: 35px;
+  background-color: white;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #ff6a9f 22%, #b5467e 87%);
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b3afb3;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 5.6px solid transparent;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+
+.slide2 .sperm1 {
+  width: 800px;
+  position: absolute;
+  margin-top: 10px;
+  transform: translateX(150px);
+  animation-duration: 8s;
+  animation-name: sperm1;
+  z-index: -2;
+  animation-iteration-count: infinite;
+}
+.slide2 .sperm2 {
+  width: 100%;
+  position: absolute;
+  margin-top: -20px;
+  animation-duration: 8s;
+  animation-name: sperm2;
+  z-index: -2;
+  animation-iteration-count: infinite;
+}
+.slide2 .sperm3 {
+  width: 900px;
+  position: absolute;
+  margin-top: 30px;
+  transform: translateX(100px);
+  animation-duration: 8s;
+  animation-name: sperm3;
+  z-index: -2;
+  animation-iteration-count: infinite;
+}
+.slide2 .sperm4 {
+  width: 80%;
+  position: absolute;
+  margin-top: 70px;
+  z-index: -2;
+  transform: translateX(190px);
+  animation-duration: 8s;
+  animation-name: sperm4;
+  animation-iteration-count: infinite;
+}
+.slide2 .sperm5 {
+  width: 90%;
+  position: absolute;
+  margin-top: -10px;
+  z-index: -2;
+  transform: translateX(100px);
+  animation-duration: 8s;
+  animation-name: sperm5;
+  animation-iteration-count: infinite;
+}
+
+.slide2 .logo {
+  width: 80px;
+  margin-top: 100px;
+}
+
+@keyframes sperm1 {
+  0% {
+    margin-top: 40px;
+    transform: translateX(200px);
+    opacity: 0%;
+  }
+
+  100% {
+    margin-top: 10px;
+    transform: translateX(150px);
+    opacity: 100%;
+  }
+}
+@keyframes sperm2 {
+  0% {
+    margin-top: 20px;
+    transform: translateX(70px);
+    opacity: 0%;
+  }
+
+  100% {
+    margin-top: -20px;
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+}
+
+@keyframes sperm3 {
+  0% {
+    margin-top: 50px;
+    transform: translateX(200px);
+    opacity: 0%;
+  }
+
+  100% {
+    margin-top: 30px;
+    transform: translateX(100px);
+    opacity: 100%;
+  }
+}
+
+@keyframes sperm4 {
+  0% {
+    margin-top: 100px;
+    transform: translateX(270px);
+    opacity: 0%;
+  }
+
+  100% {
+    margin-top: 70px;
+    transform: translateX(190px);
+    opacity: 100%;
+  }
+}
+
+@keyframes sperm5 {
+  0% {
+    margin-top: 50px;
+    transform: translateX(300px);
+    opacity: 0%;
+  }
+
+  100% {
+    margin-top: -10px;
+    transform: translateX(100px);
+    opacity: 100%;
+  }
+}

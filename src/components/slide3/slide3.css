@@ -1,0 +1,363 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../../fonts/ofont.ru_Gilroy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../../fonts/gilroy\ light.ttf") format("truetype");
+}
+.slide3 {
+  width: 1024px;
+  height: 768px;
+  background-image: url("../../images/background3.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+  transform: translateX(2048px);
+}
+.slide3 .wrapper {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.slide3 .subtitle {
+  font-family: "Gilroy-Light";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.slide3 .title {
+  text-transform: uppercase;
+  font-family: "Gilroy-Light";
+  font-weight: 600;
+  font-size: 80px;
+}
+.slide3 .title b {
+  font-family: "Gilroy-ExtraBold";
+}
+.slide3 .flex {
+  display: flex;
+  font-family: "Gilroy-Light";
+  margin-top: 70px;
+  font-size: 22px;
+}
+.slide3 .text-left {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0px 9px 51px 28px rgba(0, 0, 0, 0.1);
+  padding: 40px 40px 40px 100px;
+  font-size: 26px;
+  margin-right: 50px;
+  margin-left: -100px;
+  z-index: -3;
+  border-radius: 35px;
+}
+.slide3 .plate {
+  width: 6%;
+  position: absolute;
+  transform: translateY(-80px);
+}
+.slide3 .text-right {
+  width: 30%;
+  height: 20%;
+  background-color: white;
+  box-shadow: 0px 9px 51px 28px rgba(0, 0, 0, 0.1);
+  padding: 40px 40px 40px 40px;
+  font-size: 26px;
+  border-radius: 35px;
+}
+.slide3 .calendar {
+  width: 6%;
+  position: absolute;
+  transform: translateY(-70px);
+}
+.slide3 .btn {
+  width: 250px;
+  height: 70px;
+  background-color: #ff6a9f;
+  border: none;
+  border-radius: 35px;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 350px;
+  padding: 10px;
+  display: inline-flex;
+  line-height: 110%;
+  justify-content: space-between;
+}
+.slide3 .btn-text {
+  font-family: "Gilroy-Light";
+  font-size: 25px;
+  margin-top: 18px;
+  transform: translateY(35px);
+  transform: translateX(-15px);
+}
+.slide3 .circle {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  box-shadow: 4px 3px 3px 0px rgba(231, 231, 231, 0.7);
+  color: white;
+  font-size: 26px;
+  line-height: 180%;
+  border-radius: 50%;
+}
+.slide3 .logo {
+  width: 80px;
+  margin-top: 120px;
+  z-index: 3;
+}
+.slide3 .bubble1 {
+  width: 3%;
+  position: absolute;
+  margin-top: 80px;
+  transform: translateX(180px);
+  z-index: 1;
+  animation-name: bubble1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.slide3 .bubble2 {
+  width: 7%;
+  position: absolute;
+  margin-top: 150px;
+  transform: translateX(150px);
+  animation-name: bubble2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+.slide3 .bubble3 {
+  width: 3%;
+  position: absolute;
+  margin-top: 200px;
+  transform: translateX(80px);
+  z-index: 1;
+  animation-name: bubble3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.slide3 .bubble4 {
+  width: 10%;
+  position: absolute;
+  margin-top: 280px;
+  transform: translateX(150px);
+  z-index: 1;
+  animation-name: bubble4;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.slide3 .bubble5 {
+  width: 3%;
+  position: absolute;
+  margin-top: 420px;
+  transform: translateX(10px);
+  animation-name: bubble5;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+.slide3 .bubble6 {
+  width: 6%;
+  position: absolute;
+  margin-top: 480px;
+  transform: translateX(20px);
+  animation-name: bubble6;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+.slide3 .bubble7 {
+  width: 6%;
+  position: absolute;
+  margin-top: 500px;
+  transform: translateX(210px);
+  z-index: 1;
+  animation-name: bubble7;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.slide3 .bubble8 {
+  width: 15%;
+  position: absolute;
+  margin-top: 700px;
+  transform: translateX(170px);
+  animation-name: bubble8;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
+.slide3 .bottle {
+  width: 250px;
+  position: absolute;
+  margin-top: 120px;
+  z-index: 2;
+  margin-left: 20px;
+}
+@keyframes bubble1 {
+  0% {
+    margin-top: 80px;
+    transform: translateX(180px);
+  }
+
+  50% {
+    margin-top: 80px;
+    transform: translateX(150px);
+  }
+  100% {
+    margin-top: 80px;
+    transform: translateX(180px);
+  }
+}
+
+@keyframes bubble2 {
+  0% {
+    margin-top: 150px;
+    transform: translateX(150px);
+  }
+
+  50% {
+    margin-top: 130px;
+    transform: translateX(180px);
+  }
+  100% {
+    margin-top: 150px;
+    transform: translateX(150px);
+  }
+}
+
+@keyframes bubble3 {
+  0% {
+    margin-top: 200px;
+    transform: translateX(80px);
+  }
+
+  50% {
+    margin-top: 180px;
+    transform: translateX(100px);
+  }
+  100% {
+    margin-top: 200px;
+    transform: translateX(80px);
+  }
+}
+@keyframes bubble4 {
+  0% {
+    margin-top: 280px;
+    transform: translateX(150px);
+  }
+
+  50% {
+    margin-top: 290px;
+    transform: translateX(170px);
+  }
+  100% {
+    margin-top: 280px;
+    transform: translateX(150px);
+  }
+}
+
+@keyframes bubble5 {
+  0% {
+    margin-top: 420px;
+    transform: translateX(10px);
+  }
+
+  50% {
+    margin-top: 400px;
+    transform: translateX(30px);
+  }
+  100% {
+    margin-top: 420px;
+    transform: translateX(10px);
+  }
+}
+@keyframes bubble6 {
+  0% {
+    margin-top: 480px;
+    transform: translateX(20px);
+  }
+
+  50% {
+    margin-top: 470px;
+    transform: translateX(50px);
+  }
+  100% {
+    margin-top: 480px;
+    transform: translateX(20px);
+  }
+}
+@keyframes bubble7 {
+  0% {
+    margin-top: 500px;
+    transform: translateX(210px);
+  }
+
+  50% {
+    margin-top: 470px;
+    transform: translateX(270px);
+  }
+  100% {
+    margin-top: 500px;
+    transform: translateX(210px);
+  }
+}
+@keyframes bubble8 {
+  0% {
+    margin-top: 700px;
+    transform: translateX(170px);
+  }
+
+  50% {
+    margin-top: 700px;
+    transform: translateX(190px);
+  }
+  100% {
+    margin-top: 700px;
+    transform: translateX(170px);
+  }
+}
+.popup {
+  height: 768px;
+  width: 1024px;
+  position: absolute;
+  background-color: rgba(32, 35, 63, 0.9);
+  transform: translateY(-768px);
+  display: none;
+}
+.popupmessage1 {
+  font-family: "Gilroy-Light";
+  font-size: 30px;
+  background-color: white;
+  width: 600px;
+  border-radius: 35px;
+  margin-top: 170px;
+  margin-left: 200px;
+  padding: 50px 50px 50px 100px;
+}
+.popupmessage2 {
+  font-family: "Gilroy-Light";
+  font-size: 30px;
+  background-color: white;
+  width: 600px;
+  border-radius: 35px;
+  margin-top: 170px;
+  margin-left: 200px;
+  padding: 50px 50px 50px 100px;
+  display: none;
+}
+.popupcontrol {
+  margin-top: 30px;
+}
+.pinkcircle {
+  color: #ff6a9f;
+  margin: 5px;
+}
+.slide3 .exit {
+  position: absolute;
+  transform: translateX(570px);
+  font-size: 40px;
+}
+.slide3 .number {
+  color: rgb(4, 204, 204);
+  font-family: "Gilroy-Light";
+  font-weight: 600;
+}
